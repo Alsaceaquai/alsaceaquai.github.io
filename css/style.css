@@ -9,7 +9,9 @@ body {
 	line-height:1.6em;
 	color:#656565;
 }
-
+div {
+  background-image: url("./lalsaceaquai.png");
+}
 a:active {
 	outline:0;
 }
