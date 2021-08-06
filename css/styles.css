@@ -48,6 +48,18 @@
     scroll-behavior: smooth;
   }
 }
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+
+h2 {
+  color: blue;
+  font-family: sans-serif;
+
+}
 
 body {
   margin: 0;
