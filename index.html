@@ -1,35 +1,1020 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../assets/favicon.ico">
-    <title>Restaurant l'Alsace à Quai</title>
-   <!-- Bootstrap core CSS -->
-    <link href="../css/editor.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="narrow-jumbotron.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-  </head>
-  <body>
-      <iframe src="https://app.swifty-menu.fr/menus/3282?cahier_ok=true" width="100%" height="100%" border="none" allow="fullscreen" id="frameDemo"></iframe>
- 
-<script>
-$( "#frameDemo" ).contents().find( "a" ).css( "background-color", "#BADA55" );
-</script>
-<footer class="footer">
-        <p><span style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium;">Copyright © l'Alsace à Quai 2021 -- Made with ❤️ by <a href="god.html">Thilanka DevaSurendra</a></span></p>
-      </footer>
-    </div> 
-<!-- /container -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swifty Start - Votre menu digital</title>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Uc7gvFm4ae7II6aPZgKm9ZmDt5Fu14U2zJnUiKqS4Up2EWnVRf2EsGe2+egp6lXPELamo9TsdZb4ey579VUcaw==" />
   
 
+  <meta charset="UTF-8">
+
+  <link rel="shortcut icon" href="/favicon.png" type="image/png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  <script src="/assets/application-82782617629723543d18cce5539351fa6f06f8c051c4e1e89e3fa569c1d72225.js" data-turbolinks-track="reload"></script>
+  <script src="/packs/js/application-d4b7795afd980d1bb880.js"></script>
+
+  <link rel="stylesheet" media="all" href="/assets/application-a36428996f062604e403a09c1d8198458bd06fdde04406fb1466d2603764f396.css" data-turbolinks-track="reload" />
+  <link rel="stylesheet" media="screen" href="/packs/css/application-d9e5eaf1.css" />
+
+</head>
+
+<body>
+  <div 
+  id="digital-menu" 
+  data-controller="menu"
+  data-menu-active-class=""
+  data-action="scroll->menu#onScroll" 
+  style="background-color: #FFFFFF; color: #000000"
+>
+
+  <div class="menu-header">
+    <div class="menu-banner" style="background-color: #F5F5F5">
+        <div class="menu-logo">
+          <img src="https://app.swifty-menu.fr/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdmtCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--df395d2e4f29a7d4334ed2aaf18c512ea643398f/project_20211209_1202412-01.png" width="80" height="80" />
+        </div>
+      <div class="level is-mobile" style="position: absolute;bottom: -37px;right: 0px;">
+        <div class="level-left links">
+        </div>
+      </div>
+    </div>
+    <h2 class="menu-title">
+      Restaurant l&#39;Alsace à Quai
+    </h2>
+
+    <h5 class="menu-subtitle" style="color: #7A7A7A">
+          Dans le cadre des protocoles sanitaire, les additions et les encaissements se font à table. <br>
+          Merci<br>
+    </h5>
+
+    <h5 class="menu-subtitle scanobar-subtitle" data-menu-target="scanobarSubtitle" style="color: #7A7A7A">
+      Profitez des promotions<img class="inline-logo" style="margin: 0px" src="/assets/scanobar-logo-white-dc0e836ac5e4a60ca11721eef98c04c53c8e7e8001a0006e65902dc295d59bfa.png" />dans notre établissement !
+      <img class="scanobar-plus" style="margin: 0px" data-action="click-&gt;menu#openScanobarModal" data-menu-text-param="Commandez les bières participantes Scanobar, cumulez des FIZ et faites-vous rembourser !*" src="/assets/icon-scanobar-plus-271b01b21912335ff4eb74d9373f94d3ed4d25befbf233dc82b80bc7e5e5e93a.svg" />
+    </h5>
+  </div>
+
+
+    <div class="tags navigation" data-menu-target="navigation" style="background-color: #FFFFFF">
+          <div
+            class="tag is-medium is-rounded is-primary has-text-weight-bold "
+            style="background-color: #FFFFFF; color: #000000"
+            data-action="click->menu#goTo"
+            data-color="564DE5"
+            data-background="FFFFFF"
+            data-category="category-19485" 
+            id="categoryTab-19485"
+          >
+            La Carte
+          </div>
+    </div>
+
+
+
+
+        <div 
+          class="category" 
+          id="category-19485" 
+          style="background-color: #F5F5F5" 
+          data-menu-target="category" 
+          data-tab="categoryTab-19485" 
+          data-title="La Carte"
+        >
+          <h4 class="title is-4" style="color: #000000">La Carte</h4>
+          <p class="subtitle is-6" style="color: #7A7A7A">
+              Tous nous plats peuvent contenir des allergènes <br>
+              Nous adapterons les recettes pour vous.<br>
+          </p>
+        </div>
+
+
+            <div class="subcategory my-5">
+      <div class="subcategory-header" style="background-color: #F5F5F5;">
+        <h5 class="title is-5 has-text-weight-bold" style="color: #">
+          Entrées &amp; Flammenküches
+        </h5>
+        <p class="subtitle is-7" style="color: #7A7A7A">
+              Idéal à partager<br>
+        </p>
+      </div>
+
+      
+
+    <div class="product-variants is-flex" style="border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 is-flex-shrink-1">
+        <div class="info">
+          <h3 class="has-text-weight-bold" style="color: #000000;">
+            Accras de morue et la sauce « Qui va bien »
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width:'200px';">
+          </p>
+            
+        </div>
+
+        <div style="padding-right: 8px;">
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  6 pièces
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                7,2
+              </div>
+            </div>
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  10 pièces
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                12,0
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Foie gras de Canard
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                avec compotée de cerises noires<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          14,5
+        </div>
+      </div>
+    </div>
+
+
+      
+
+    <div class="product-variants is-flex" style="border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 is-flex-shrink-1">
+        <div class="info">
+          <h3 class="has-text-weight-bold" style="color: #000000;">
+            Flammenküche Tradition
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width:'200px';">
+                Oignons, lardons, crème, fromage blanc<br>
+          </p>
+            
+        </div>
+
+        <div style="padding-right: 8px;">
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  Demie
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                6,5
+              </div>
+            </div>
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  Entière
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                12,5
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+    <div class="product-variants is-flex" style="border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 is-flex-shrink-1">
+        <div class="info">
+          <h3 class="has-text-weight-bold" style="color: #000000;">
+            Flammenküche Gratinée
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width:'200px';">
+                Oignons, lardons, crème, fromage blanc, gruyère A.O.P.<br>
+          </p>
+            
+        </div>
+
+        <div style="padding-right: 8px;">
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  Entière
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                13,5
+              </div>
+            </div>
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  Demie
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                6,9
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+    <div class="product-variants is-flex" style="border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 is-flex-shrink-1">
+        <div class="info">
+          <h3 class="has-text-weight-bold" style="color: #000000;">
+            Flammenküche au Munster
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width:'200px';">
+                Oignons, lardons, crème, fromage blanc, Munster A.O.P.<br>
+          </p>
+            
+        </div>
+
+        <div style="padding-right: 8px;">
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  Entière
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                17,5
+              </div>
+            </div>
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  Demie
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                9,0
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      
+
+    <div class="product-variants is-flex" style="border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 is-flex-shrink-1">
+        <div class="info">
+          <h3 class="has-text-weight-bold" style="color: #000000;">
+            Flammenküche Végétarienne
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width:'200px';">
+                Oignons, crème, fromage blanc, poivrons confits, champignons à l’ail, salade verte, herbes<br>
+          </p>
+            
+        </div>
+
+        <div style="padding-right: 8px;">
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  Demie
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                8,5
+              </div>
+            </div>
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  Entière
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                16,5
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      
+    <div class="product-variants is-flex" style= "color:#000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Salade d&#39;accompagnement
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          3,3
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="subcategory my-5">
+      <div class="subcategory-header" style="background-color: #F5F5F5;">
+        <h5 class="title is-5 has-text-weight-bold" style="color: #">
+          Les Choucroutes d&#39;Alsace
+        </h5>
+        <p class="subtitle is-7" style="color: #7A7A7A">
+        </p>
+      </div>
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Choucroute Strasbourg
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Knack, saucisse fumée, collet, lard<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          17,8
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Choucroute gourmande
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Knack, saucisse fumée, collet, lard, 1 morceau de jarret<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          23,5
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "color:#000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Choucroute Jarret
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                1 Jarret fumé et braisé 4 heures, knack<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          19.9
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="subcategory my-5">
+      <div class="subcategory-header" style="background-color: #F5F5F5;">
+        <h5 class="title is-5 has-text-weight-bold" style="color: #">
+          Le retour de la pêche
+        </h5>
+        <p class="subtitle is-7" style="color: #7A7A7A">
+        </p>
+      </div>
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Fish &amp; Chips
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Cabillaud, crevettes, 2 sauces, frites, salade<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          18,9
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Filet de Saint-Pierre
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Sur risotto crémeux aux fruits de mer<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          22,5
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Poêlon de fruits de mer
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                À la crème d&#39;épices douces, riz<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          18,9
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "color:#000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Choucroute du pêcheur
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Bar, haddock, St-Jaques, crevettes<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          22,8
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="subcategory my-5">
+      <div class="subcategory-header" style="background-color: #F5F5F5;">
+        <h5 class="title is-5 has-text-weight-bold" style="color: #">
+          Les Viandes
+        </h5>
+        <p class="subtitle is-7" style="color: #7A7A7A">
+        </p>
+      </div>
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Le fameux Jarret fumé et braisé 4 heures
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Pommes sautées, salade, sauce Munster<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          19,9
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            La tartiflette Alsacienne
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                au Munster, salade<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          16,8
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "color:#000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            La pièce de bœuf 300 gr
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                frites, salade, sauce poivre<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          23,5
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="subcategory my-5">
+      <div class="subcategory-header" style="background-color: #F5F5F5;">
+        <h5 class="title is-5 has-text-weight-bold" style="color: #">
+          Au marché
+        </h5>
+        <p class="subtitle is-7" style="color: #7A7A7A">
+        </p>
+      </div>
+
+      
+
+    <div class="product-variants is-flex" style="border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 is-flex-shrink-1">
+        <div class="info">
+          <h3 class="has-text-weight-bold" style="color: #000000;">
+            Flammenküche aux pétoncles
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width:'200px';">
+                Et roquette à l&#39;huile de Truffe blanche<br>
+          </p>
+            
+        </div>
+
+        <div style="padding-right: 8px;">
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  Demie
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                11,5
+              </div>
+            </div>
+            <div class="variant">
+              <div class="info">
+                <div class="price" style="color: #000000;">
+                  Entière
+                </div>
+              </div>
+              <div class="price" style="color: #000000;">
+                22,0
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Poêlon de St-Jacques et Crevette
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                À la Bretonne avec du riz<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          22,9
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Côte de boeuf 1Kg 
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                &quot;Angus Tomahawk&quot;<br>
+                2 sauces, frites, salade.<br>
+                Pour 2 personnes<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          59,0
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "color:#000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Civet de marcassin à l&#39;Alsacienne
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Escalope de foie gras et Spätzele<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          22,5
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="subcategory my-5">
+      <div class="subcategory-header" style="background-color: #F5F5F5;">
+        <h5 class="title is-5 has-text-weight-bold" style="color: #">
+          Escale sur l&#39;Île de la douceur
+        </h5>
+        <p class="subtitle is-7" style="color: #7A7A7A">
+        </p>
+      </div>
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Ile flottante
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Crème anglaise<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          5,5
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Tarte du jour
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          6,5
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Cheesecake
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Sur fond de sablé breton<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          6,5
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Baba au rhum
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          8,5
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Crème brûlée
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                À la cassonade<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          6,5
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Ganache au chocolat
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Sur fond de sablé breton<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          7,0
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Coupe Alsace à Quai
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Glace vanille, meringue, myrtilles au sucre, crème fouettée<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          7,0
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Coupe Dame Blanche
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Glace vanille, chocolat fondu, crème fouettée<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          6,8
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Café gourmand
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Expresso &amp; 4 mini desserts<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          9,0
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Irish gourmand
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Irish Coffee &amp; 4 mini desserts<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          14,5
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Champagne gourmand
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Coupe de champagne &amp; 4 mini desserts<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          14,5
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Irish Coffee au Bushmills
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          9,0
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Café Alsacien à la Vieille Prune
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          9,5
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "border-bottom: 1px solid #e0e0e0;color: #000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Meringue glacée aux saveurs de Noël
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Meringue, glace cannelle, sorbet orange, crème fouettée<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          7,0
+        </div>
+      </div>
+    </div>
+
+
+      
+    <div class="product-variants is-flex" style= "color:#000000;" >
+      <div class="is-flex-grow-1 variant is-flex-shrink-1" style="width: 272px;padding-right: 8px">
+
+        <div class="info" style="width: 253.44px;">
+          <h3 class="title-product has-text-weight-bold" style="color: #000000;">
+            Café liégeois
+          </h3>
+          <p class="subtitle-product is-8" style="color: #7A7A7A;word-wrap: break-word;width: '200px';">
+                Glace vanille, glace café, café glacé, crème fouettée<br>
+          </p>
+            
+        </div>
+        <div class="price" style="color: #000000;">
+          7,0
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+  <div class="menu-footer">
+    <h6 class="menu-subtitle mb-4 prices" style="color: #7A7A7A">
+      Tous les prix sont indiqués en € TTC
+    </h6>
+  </div>
+
+  <div class="scanobar-modal-overlay hidden" data-action="click->menu#closeScanobarModal" data-menu-target="scanobarModal">
+  <div class="scanobar-modal">
+    <img class="logo" src="/assets/scanobar-logo-big-white-3c4a2ecf94b8597c2dbf54cdfb8c145ab446ad2a3902b2cd5cdc41431134226f.png" />
+    <p data-menu-target="scanobarModalText"></p>
+    <a href="https://m.me/Scanobar?ref=action%3Dmarketing%26campaign%3D_onlinereferral_chd_swiftymenu%26channel%3Dchannel_plv_bar" class="cta" target="_blank">J'en profite</a>
+    <img class="promo" src="/assets/scanobar-promo-37c6d10be7ac166568547807ac2fe45432864ddbf83fb2421e5d8cd09587c3e8.png" />
+    <div class="footnote">* Remboursement partiel soumis à conditions</div>
+  </div>
+</div>
+
+  <div class="wifi-modal-overlay hidden" data-action="click->menu#closeWifiModal" data-menu-target="wifiModal">
+  <div class="wifi-modal">
+    <h4 class="title is-4">Accès WIFI</h4>
+    <p><p></p></p>
+  </div>
+</div>
+
+
+</div>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
 </body>
 </html>
