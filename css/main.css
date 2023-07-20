@@ -196,6 +196,11 @@ padding: 15px 0;
 display: inline-block;
 }
 
+p span{
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+}
+
 .order button, .app button {
     padding: 0px 21px;
     background-color: #eaf0ff;
